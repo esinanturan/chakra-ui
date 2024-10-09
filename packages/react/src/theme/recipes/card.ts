@@ -14,7 +14,7 @@ export const cardSlotRecipe = defineSlotRecipe({
       bg: "var(--card-bg)",
       boxShadow: "var(--card-shadow)",
       borderRadius: "var(--card-radius)",
-      color: "text",
+      color: "fg",
       borderWidth: "var(--card-border-width, 0)",
       borderColor: "var(--card-border)",
     },
@@ -71,7 +71,7 @@ export const cardSlotRecipe = defineSlotRecipe({
     variant: {
       elevated: {
         root: {
-          "--card-bg": { base: "white", _dark: "colors.gray.800" },
+          "--card-bg": { _light: "white", _dark: "colors.gray.800" },
           "--card-shadow": "shadows.xs",
         },
       },

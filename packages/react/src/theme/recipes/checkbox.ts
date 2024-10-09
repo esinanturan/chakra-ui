@@ -1,5 +1,6 @@
 import { checkboxAnatomy } from "../../anatomy"
 import { defineSlotRecipe } from "../../styled-system"
+import { checkmarkRecipe } from "./checkmark"
 
 export const checkboxSlotRecipe = defineSlotRecipe({
   slots: checkboxAnatomy.keys(),
@@ -23,9 +24,10 @@ export const checkboxSlotRecipe = defineSlotRecipe({
       flexShrink: 0,
       verticalAlign: "top",
       color: "white",
+      cursor: "checkbox",
       borderWidth: "1px",
       borderColor: "transparent",
-      focusRing: "outside",
+      focusVisibleRing: "outside",
       _invalid: {
         colorPalette: "red",
         borderColor: "border.error",
@@ -35,9 +37,10 @@ export const checkboxSlotRecipe = defineSlotRecipe({
       },
     },
 
+    indicator: checkmarkRecipe.base,
+
     label: {
       userSelect: "none",
-      fontWeight: "medium",
       _disabled: {
         opacity: "0.5",
       },
@@ -52,7 +55,7 @@ export const checkboxSlotRecipe = defineSlotRecipe({
           borderRadius: "xs",
         },
         label: { textStyle: "xs" },
-        indicator: { textStyle: "3xs" },
+        indicator: checkmarkRecipe.variants?.size?.sm,
       },
       md: {
         control: {
@@ -60,7 +63,7 @@ export const checkboxSlotRecipe = defineSlotRecipe({
           borderRadius: "xs",
         },
         label: { textStyle: "sm" },
-        indicator: { textStyle: "2xs" },
+        indicator: checkmarkRecipe.variants?.size?.md,
       },
       lg: {
         control: {
@@ -68,7 +71,7 @@ export const checkboxSlotRecipe = defineSlotRecipe({
           borderRadius: "sm",
         },
         label: { textStyle: "md" },
-        indicator: { textStyle: "xs" },
+        indicator: checkmarkRecipe.variants?.size?.lg,
       },
     },
 
@@ -87,6 +90,7 @@ export const checkboxSlotRecipe = defineSlotRecipe({
             borderColor: "colorPalette.solid",
           },
         },
+        indicator: checkmarkRecipe.variants?.variant?.outline,
       },
       subtle: {
         control: {
@@ -100,6 +104,7 @@ export const checkboxSlotRecipe = defineSlotRecipe({
             color: "colorPalette.fg",
           },
         },
+        indicator: checkmarkRecipe.variants?.variant?.subtle,
       },
     },
   },

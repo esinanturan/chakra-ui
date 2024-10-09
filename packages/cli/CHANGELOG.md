@@ -1,5 +1,35 @@
 # @chakra-ui/cli
 
+## 3.0.0-next.29
+
+### Patch Changes
+
+- [`0eda15c`](https://github.com/chakra-ui/chakra-ui/commit/0eda15c6dc09fc777a0091be15416063dc4ad862)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Set process
+  setMaxListeners to improve watch mode
+
+## 3.0.0-next.28
+
+## 3.0.0-next.27
+
+## 3.0.0-next.26
+
+## 3.0.0-next.25
+
+## 3.0.0-next.24
+
+## 3.0.0-next.23
+
+## 3.0.0-next.22
+
+## 3.0.0-next.21
+
+### Minor Changes
+
+- [`14b6a45`](https://github.com/chakra-ui/chakra-ui/commit/14b6a45f5df2405e7e40494d4691efceed87f962)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Show the number of
+  skipped snippets that already exists in outdir
+
 ## 3.0.0-next.20
 
 ### Patch Changes

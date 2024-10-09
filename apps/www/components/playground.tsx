@@ -27,11 +27,13 @@ const SectionTitle = ({ children, id }: SectionTitleProps) => {
       px="4"
       py="3"
       rounded="md"
+      colorPalette="accent"
+      textStyle="sm"
     >
       <Text fontWeight="medium" id={id}>
         <Link href={`#${id}`}>{children}</Link>
       </Text>
-      <NextLink passHref legacyBehavior href={"#"}>
+      <NextLink passHref legacyBehavior href={`/docs/components/${id}`}>
         <Link fontSize="sm">View in docs</Link>
       </NextLink>
     </Flex>
@@ -75,7 +77,7 @@ const DemoList = (props: DemoListProps) => {
     <>
       {items.map(({ label, component, align }) => (
         <Stack key={label} align={align || "flex-start"} gap="5">
-          <Text color="fg.subtle" fontWeight="medium">
+          <Text color="fg.subtle" textStyle="sm" fontWeight="medium">
             {label}
           </Text>
           {component}

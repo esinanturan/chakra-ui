@@ -1,5 +1,140 @@
 # @chakra-ui/react
 
+## 3.0.0-next.29
+
+### Minor Changes
+
+- [`c2f45ca`](https://github.com/chakra-ui/chakra-ui/commit/c2f45cac80ab9431dd416fe4405bd9252f401b9f)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Rename
+  `Fieldset.Control` to `Fieldset.Content`
+
+### Patch Changes
+
+- [#8905](https://github.com/chakra-ui/chakra-ui/pull/8905)
+  [`807a581`](https://github.com/chakra-ui/chakra-ui/commit/807a581715ed44a279edb042a396fb9c971d6955)
+  Thanks [@stevensecreti](https://github.com/stevensecreti)! - Added transform
+  function to backgroundClip to appropriately handle 'text' value
+
+## 3.0.0-next.28
+
+### Minor Changes
+
+- [`47b3b5a`](https://github.com/chakra-ui/chakra-ui/commit/47b3b5af95e711f78a5e8452cf4a8debe8e76975)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Support array in
+  conditions object. This matches the API in Panda CSS and allow users to define
+  complex selectors like media hover queries.
+
+## 3.0.0-next.27
+
+### Minor Changes
+
+- [`5093e18`](https://github.com/chakra-ui/chakra-ui/commit/5093e186a94f9c73452dd346fcf8becb57c21140)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add cursor pointer
+  to button
+
+- [`945a777`](https://github.com/chakra-ui/chakra-ui/commit/945a7774ad138a9b77a36ef46fdbb501addfe1db)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - BREAKING: Integrate
+  Ark v4. This mostly affects the custom select component that requires the use
+  of `createListCollection` now.
+
+- [`c26acf0`](https://github.com/chakra-ui/chakra-ui/commit/c26acf01608ad8ef1b4bb7547c97fa111026ecf7)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add support for
+  cursor token type
+
+### Patch Changes
+
+- [#8857](https://github.com/chakra-ui/chakra-ui/pull/8857)
+  [`fdc2b9b`](https://github.com/chakra-ui/chakra-ui/commit/fdc2b9b0903dd75f0ddfe6bdf1e5a626d436f84c)
+  Thanks [@stevensecreti](https://github.com/stevensecreti)! - update mapObject
+  util to not call fn provided on nullish values
+
+- [#8854](https://github.com/chakra-ui/chakra-ui/pull/8854)
+  [`388716d`](https://github.com/chakra-ui/chakra-ui/commit/388716daa185a7c93d5fa5375712aa1e9b788a8d)
+  Thanks [@codebutler](https://github.com/codebutler)! - Fix issue where target
+  was not passed to link overlay
+
+## 3.0.0-next.26
+
+### Patch Changes
+
+- [`6d4cbbe`](https://github.com/chakra-ui/chakra-ui/commit/6d4cbbef2a48cc6a62c9e5ce548fc54426b2ed62)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix ES module
+  interop for @emotion/is-prop-value that makes Jest throw error.
+
+## 3.0.0-next.25
+
+### Patch Changes
+
+- [`788f493`](https://github.com/chakra-ui/chakra-ui/commit/788f4937e4e3d3774d260030705859eeb56242c0)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix issue where
+  media query css order is inconsistent with v2
+
+## 3.0.0-next.24
+
+### Major Changes
+
+- [#8815](https://github.com/chakra-ui/chakra-ui/pull/8815)
+  [`806be96`](https://github.com/chakra-ui/chakra-ui/commit/806be96aa3be56399af7fb697bbbb92b2533fffd)
+  Thanks [@isBatak](https://github.com/isBatak)! - Remove the `@chakra-ui/hooks`
+  package in favour of using dedicated, robust libraries like `react-use` and
+  `usehooks-ts`
+
+## 3.0.0-next.23
+
+### Minor Changes
+
+- [`edec8f7`](https://github.com/chakra-ui/chakra-ui/commit/edec8f79a7e444987a0de0fb43171636d14a6b35)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add clipboard
+  composition
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @chakra-ui/hooks@3.0.0-next.23
+  - @chakra-ui/utils@3.0.0-next.23
+
+## 3.0.0-next.22
+
+### Minor Changes
+
+- [`55c0839`](https://github.com/chakra-ui/chakra-ui/commit/55c08393b46e07c0f229ccd0e448863e2daf3ccf)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Move the `Prose`
+  component to snippets so it can be customized by the user.
+
+### Patch Changes
+
+- [`be98566`](https://github.com/chakra-ui/chakra-ui/commit/be98566181ca98871eb3e94d3fb2a9be29b73388)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Fix checkbox and
+  toast on mobile
+
+- Updated dependencies []:
+  - @chakra-ui/hooks@3.0.0-next.22
+  - @chakra-ui/utils@3.0.0-next.22
+
+## 3.0.0-next.21
+
+### Minor Changes
+
+- [`192c6b1`](https://github.com/chakra-ui/chakra-ui/commit/192c6b1c0981b9bbb147fda4ad2dd288c624c78c)
+  Thanks [@segunadebayo](https://github.com/segunadebayo)! - Add new fieldset
+  component
+
+### Patch Changes
+
+- [#8795](https://github.com/chakra-ui/chakra-ui/pull/8795)
+  [`4408573`](https://github.com/chakra-ui/chakra-ui/commit/4408573683c0f78eed28413e749701d2da937b06)
+  Thanks [@TylerAPfledderer](https://github.com/TylerAPfledderer)! - Adds style
+  prop names to `LayerStyleProperty` union type
+
+- [#8792](https://github.com/chakra-ui/chakra-ui/pull/8792)
+  [`4dd77ec`](https://github.com/chakra-ui/chakra-ui/commit/4dd77ecbcb2a993e771fab12a8eb8ca0a6eb69c7)
+  Thanks [@TylerAPfledderer](https://github.com/TylerAPfledderer)! - Updates the
+  exposed list of slot anatomy to ensure all anatomy is included for use in
+  type-checking extend recipe configs.
+- Updated dependencies []:
+  - @chakra-ui/hooks@3.0.0-next.21
+  - @chakra-ui/utils@3.0.0-next.21
+
 ## 3.0.0-next.20
 
 ### Patch Changes
